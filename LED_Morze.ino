@@ -12,4 +12,9 @@ void LED_ Semubalamyt ( ) {
  delay (500);
  digitalWrite (LED_A, LOW);
  delay (500);
+
+ digitalWrite (LED_A, HIGH);
+ delay (500);
+ digitalWrite (LED_A, LOW);
+ delay (500);
 }
